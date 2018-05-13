@@ -1,0 +1,57 @@
+.madan-modal-display-on{
+    display: block !important;
+}
+
+.madan-modal-image-container{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.madan-modal-image{
+    margin: auto;
+    max-width: 700px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.madan-modal-caption-container{
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+
+.madan-modal-close-container{
+    z-index: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+.madan-modal-close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 0;
+    line-height: 27px;
+}
+
